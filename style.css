@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+  color: #0a0711;
+  text-align: center;
+}
+
+.header {
+  background-image: url("images/GreeceCountry.jpg");
+  background-size: cover;
+  padding: 100px 100px 100px 100px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+  color: #0a0711;
+  text-shadow: 3px -2px white;
+}
+
+.img-logo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.main {
+  display: flex;
+  padding: 0px 70px 0px 30px;
+}
+
+.activity {
+  background-color: rgb(206, 218, 214);
+  padding-top: 1px;
+}
+
+.main h4,
+.main p {
+  font-size: 15px;
+}
+
+.main p {
+  font-weight: normal;
+}
+
+.main>div {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.main img:hover {
+  cursor: pointer;
+}
+
+#Tourist-Card img {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+#Tourist-Card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-top: 12px;
+  background-color: rgb(162, 202, 218);
+  width: 600px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 7px;
+  border-bottom: 7px solid #0a0711;
+}
+
+.Tourist-Profile {
+  font-size: 15px;
+  font-weight: bold;
+  flex: 1;
+}
