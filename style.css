@@ -38,6 +38,10 @@ body {
   padding-top: 1px;
 }
 
+.activity h3{
+  color: crimson;
+}
+
 .main h4,
 .main p {
   font-size: 15px;
